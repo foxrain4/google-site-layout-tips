@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google Site Layout Tips</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Layout Tips for Your Website</title>
   <style>
     body {
       background-color: #111;
-      color: #eee;
+      color: #ddd;
       font-family: 'Maven Pro', sans-serif;
-      font-size: 16px;
-      line-height: 1.6;
+      line-height: 1.7;
+      margin: 0;
+      padding: 40px 20px;
+    }
+    .container {
       max-width: 700px;
       margin: auto;
-      padding: 2em;
-    }
-    h1, h2 {
-      color: #5c7cfa;
       text-align: center;
     }
-    h3 {
-      color: #51cf66;
-      margin-top: 2em;
+    h1 {
+      font-size: 28px;
+      color: #5c7cfa;
+      margin-bottom: 20px;
     }
-    p, li {
-      margin-bottom: 1em;
+    h2 {
+      color: #51cf66;
+      font-size: 20px;
+      margin-top: 40px;
+    }
+    p {
+      margin: 16px 0;
     }
     ul {
-      padding-left: 1.2em;
+      text-align: left;
+      padding-left: 20px;
     }
-    strong {
-      color: #fff;
+    .tip {
+      margin-bottom: 40px;
     }
     a {
       color: #fff;
@@ -39,40 +45,67 @@
     a:hover {
       color: #ffe066;
     }
+    .emoji {
+      font-size: 28px;
+      margin-bottom: 6px;
+    }
+    .quote {
+      font-style: italic;
+      color: #aaa;
+      margin-top: 50px;
+    }
   </style>
 </head>
 <body>
-  <h1>🛠️ Quick Layout Tips for Google Sites</h1>
-  <p><em>Speed up design, stay consistent, and save yourself from layout frustration!</em></p>
+  <div class="container">
+    <div class="emoji">🎯</div>
+    <h1>Layout Tips to Speed Up Textbox Centering on Your Website</h1>
+    <p>Let’s save those wrists and keep things tidy 💪 Here are some quick and fun tricks for speeding up textbox centering on your site—even if you can't use CSS!</p>
 
-  <h3>🧩 1. Use a Master Copy (Your Perfect Box)</h3>
-  <p>Once you've made a textbox with ideal width, font size, spacing, alignment, etc., duplicate it instead of starting fresh each time. <br>
-  <strong>Right-click the textbox → Duplicate</strong>, then just swap the content. Keeps spacing perfect with zero extra work.</p>
+    <div class="tip">
+      <div class="emoji">🧩</div>
+      <h2>1. Use a Master Copy (Your Perfect Box)</h2>
+      <p>Once you've made a textbox with ideal width, font size, spacing, and alignment, <strong>duplicate it</strong> instead of starting fresh each time.</p>
+      <p><em>Right-click → Duplicate → Swap the content</em></p>
+    </div>
 
-  <h3>📦 2. Resize Smartly: Use the Blue Grid Lines</h3>
-  <p>Google Sites shows <strong>snap-to-blue-lines</strong> when resizing. Drag your textbox until it locks to the center — this ensures proper visual balance.</p>
+    <div class="tip">
+      <div class="emoji">📦</div>
+      <h2>2. Resize Smartly: Use Snap-to-Grid Lines</h2>
+      <p>Most editors show snap lines when resizing. <strong>Drag your textbox until it locks to the center grid</strong>. Stop when both sides have equal spacing from the center.</p>
+    </div>
 
-  <h3>🏗️ 3. Use a Single Column Layout</h3>
-  <p>Avoid multiple columns for text. Keep your layout in <strong>one clean vertical stack</strong>. Use line breaks or section padding to separate content instead of messy dividers.</p>
+    <div class="tip">
+      <div class="emoji">🏗️</div>
+      <h2>3. Use a Single Column Layout</h2>
+      <p>Avoid multiple columns of text. Keep it clean in a single vertical stack with line breaks and section spacers.</p>
+    </div>
 
-  <h3>🧙‍♂️ 4. Zoom Out for Easier Layout</h3>
-  <p>Zoom your browser out (e.g., Ctrl + -) while resizing. This makes it easier to align boxes and keep proportions. Zoom back in to refine content.</p>
+    <div class="tip">
+      <div class="emoji">🧙‍♂️</div>
+      <h2>4. Zoom Out for Easier Layout</h2>
+      <p>Zoom your browser out (e.g., <code>Ctrl + -</code>) to get a better view of the layout while adjusting elements. Zoom back in to continue editing comfortably.</p>
+    </div>
 
-  <h3>🖼️ 5. Stack Text and Images Vertically</h3>
-  <p>Put images <strong>above or below</strong> text, not side-by-side. This scales better on mobile and keeps everything centered naturally.</p>
+    <div class="tip">
+      <div class="emoji">🖼️</div>
+      <h2>5. Stack Text and Images Vertically</h2>
+      <p>Instead of placing images beside text, stack them vertically. This improves mobile scaling and keeps everything neat.</p>
+    </div>
 
-  <h3>💾 6. Prebuilt Templates</h3>
-  <p>Create a hidden "template" page with various pre-styled blocks — textboxes, headers, image layouts, etc. Duplicate the page for new sections and just change the content!</p>
+    <div class="tip">
+      <div class="emoji">💾</div>
+      <h2>6. Prebuilt Templates</h2>
+      <p>Create a hidden "template" page with centered boxes, image setups, and layouts you reuse often. Just duplicate and fill in new content!</p>
+    </div>
 
-  <h3>⚠️ Bonus Gotcha Warning</h3>
-  <p>Google Sites sometimes messes up formatting when pasting from Google Docs or Word. To avoid hidden issues:</p>
-  <ul>
-    <li>Paste into Notepad first, then into Google Sites</li>
-    <li>Or use <strong>Ctrl + Shift + V</strong> to paste without formatting</li>
-  </ul>
+    <div class="tip">
+      <div class="emoji">⚠️</div>
+      <h2>Bonus: Pasting Without Weird Formatting</h2>
+      <p>To avoid messy formatting from Google Docs or Word, paste into Notepad first to clear styles, or use <code>Ctrl + Shift + V</code> to paste as plain text.</p>
+    </div>
 
-  <p style="margin-top: 3em; font-style: italic; color: #aaa; text-align: center;">
-    "Work smart, not just hard — your fingertips will thank you."
-  </p>
+    <p class="quote">Need a starter layout? Let me know and I can mock one up with emoji, colors, and spacing ready to go ✨</p>
+  </div>
 </body>
 </html>
